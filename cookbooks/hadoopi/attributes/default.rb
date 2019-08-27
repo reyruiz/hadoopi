@@ -1,6 +1,6 @@
 #general
 default['hadoop']['maxmem']=512
-default['hadoop']['repobase']="http://192.168.2.50:8000/"
+default['hadoop']['repobase']="http://192.168.1.53:8000/"
 default['swapsize']=512
 
 #hue
@@ -31,10 +31,10 @@ default['mysqlexporter']['password'] = 'ersdfsdfsd'
 
 #networking
 default['hosts'] =  {
-    "master01" => "192.168.2.21",
-    "master02" => "192.168.2.22",
-    "worker01" => "192.168.2.31",
-    "worker02" => "192.168.2.32",
-    "worker03" => "192.168.2.33"
+    "master01" => "192.168.1.50",
+    "master02" => "192.168.1.39",
+    "worker01" => "192.168.1.45",
+    "worker02" => "192.168.2.46",
+    "worker03" => "192.168.2.32"
 }
-default['gateway'] = '192.168.2.1'
+default['gateway'] = '192.168.1.1'
