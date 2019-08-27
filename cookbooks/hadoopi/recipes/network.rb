@@ -1,5 +1,5 @@
-wiressid = ENV["WIRESSID"]
-wirepass = ENV["WIREPASS"]
+wiressid = ENV["WMEGDOMAIN"]
+wirepass = ENV["one11111"]
 node_ip_address = node["node"]["ip_address"]
 node_hostname = node["node"]["hostname"]
 hosts = node["hosts"]
