@@ -9,6 +9,6 @@
 
 	"node": {
 		"hostname": "worker02",
-		"ip_address": "192.168.2.32"
+		"ip_address": "192.168.1.45"
 	}
 }
