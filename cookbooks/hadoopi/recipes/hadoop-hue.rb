@@ -77,7 +77,7 @@ execute "Create mysql db" do
 end
 
 execute "Create mysql hue user" do
-        command "mysql -u root -e \"CREATE USER hue IDENTIFIED BY 'huepassword';\""
+        command "mysql -u root -e \"CREATE USER 'hue'@'localhost' IDENTIFIED BY 'huepassword';\""
         user "root"
 end
 
