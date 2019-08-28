@@ -1,5 +1,5 @@
 #general
-default['hadoop']['maxmem']=512
+default['hadoop']['maxmem']=1024
 default['hadoop']['repobase']="http://192.168.1.53:8000/"
 default['swapsize']=512
 
