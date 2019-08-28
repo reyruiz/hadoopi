@@ -1,5 +1,5 @@
 # install hadoop  packages
-package "oracle-java8-jdk"
+#package "oracle-java8-jdk"
 package "libsnappy-java"
 package "libssl-dev"
 package "vim"
