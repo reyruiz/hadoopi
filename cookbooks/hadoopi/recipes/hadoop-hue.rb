@@ -54,7 +54,8 @@ end
 
 
 # install mysql for hue data
-package "mysql-server"
+#package "mysql-server"
+package "mariadb-server"
 package "libmysqlclient-dev"
 package "libmysql-java"
 
